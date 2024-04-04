@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <div className="mb-40 lg:mb-96">
+      <div className="mb-72 lg:mb-96">
         <div className="lg:flex gap-44 -translate-y-24 lg:-translate-y-0 3xl:translate-y-10">
           <motion.div
             initial={{ y: 15, opacity: 0 }}
