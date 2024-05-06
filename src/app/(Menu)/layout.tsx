@@ -4,10 +4,10 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function Navbar() {
+export default function RootLayout({ children }: any) {
   return (
-    <nav>
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between w-full -translate-y-44">
+    <div>
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between w-full translate-y-16 translate-x-20">
         <motion.div
           initial={{ y: 15, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -26,6 +26,7 @@ export default function Navbar() {
           <Link href="/Contact">Contact</Link>
         </motion.div>
       </div>
-    </nav>
+      <div className="h-screen m-20 mt-60">{children}</div>
+    </div>
   );
 }

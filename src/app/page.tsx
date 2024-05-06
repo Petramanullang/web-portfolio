@@ -3,7 +3,7 @@
 import React, { useRef } from "react";
 import Navbar from "../components/navbar";
 import Hero from "../components/heroes";
-import Work from "../components/work";
+import Work from "../components/WorkProperties/WorkProperties";
 import Footer from "../components/footer";
 
 export default function Home() {
