@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FiArrowUpRight } from "react-icons/fi";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import WorkData from "../../components/WorkProperties/WorkData";
+import WorkData from "./WorkData";
 
 const Work = () => {
   return (

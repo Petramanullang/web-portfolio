@@ -1,4 +1,4 @@
-const PortfolioItem = [
+const WorkData = [
   {
     title: "01 / PROJECT 01",
     subtitle:
@@ -28,4 +28,4 @@ const PortfolioItem = [
   },
 ];
 
-export default PortfolioItem;
+export default WorkData;
